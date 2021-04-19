@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import defaultImage from '../default.png';
 const Profile = ({ avatar, name, tag, location, stats }) => (
     <div className="profile">
         <div className="description">
@@ -30,7 +31,7 @@ const Profile = ({ avatar, name, tag, location, stats }) => (
 );
 
 Profile.defaultProps = {
-    avatar: "https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg",
+    avatar: defaultImage,
 }
 Profile.propTypes = {
     avatar: PropTypes.string,
