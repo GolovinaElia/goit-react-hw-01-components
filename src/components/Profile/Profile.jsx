@@ -1,19 +1,20 @@
 import PropTypes from 'prop-types';
 import defaultImage from '../default.png';
+import style from './Profile.module.css';
 const Profile = ({ avatar, name, tag, location, stats }) => (
-    <div className="profile">
-        <div className="description">
+    <div className={style.profile}>
+        <div className={style.description}>
             <img
                 src={avatar}
                 alt="Аватар пользователя"
-                className="avatar"
+                className={style.avatar}
             />
-            <p className="name">{name}</p>
-            <p className="tag">{tag}</p>
-            <p className="location">{location}</p>
+            <p className={style.name}>{name}</p>
+            <p className={style.tag}>{tag}</p>
+            <p className={style.location}>{location}</p>
         </div>
 
-        <ul className="stats">
+        <ul className={style.stats}>
             <li>
                 <span className="label">Followers</span>
                 <span className="quantity">{stats.followers}</span>

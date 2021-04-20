@@ -1,0 +1,45 @@
+.profile {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.description {
+  display: block;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  border-color: black;
+}
+
+.name {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tag {
+  margin: auto;
+  text-align: center;
+}
+
+.location {
+  margin: auto;
+  text-align: center;
+}
+
+.stats {
+  list-style: none;
+  text-align: center;
+}
