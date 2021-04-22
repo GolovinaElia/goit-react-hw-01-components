@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import defaultImage from '../default.png';
+import defaultImage from '../Image/default.png';
 import style from './Friend.module.css';
 
 const FriendListItem = ({ isOnline, avatar, name }) => (
