@@ -6,6 +6,8 @@
   align-items: center;
   font-weight: 500;
   font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .description {
@@ -20,6 +22,7 @@
   border: 2px solid transparent;
   border-radius: 50%;
   margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .name {
@@ -64,4 +67,5 @@
   font-weight: 700;
   font-size: 12px;
   margin-right: 25px;
+  margin-bottom: 10px;
 }
